@@ -1,0 +1,168 @@
+.navs{
+    position:absolute;
+    
+    top: 30%;
+    transition: all 0.3s linear;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
+    z-index: 999;
+  }
+   .li{
+    height: 60px;
+    position:relative;
+  }
+  .a{
+    color: white;
+    display: block;
+    height: 100%;
+    width:2vw;
+    line-height: 60px;
+    padding-left:9vh;
+    border-bottom: 1px solid rgba(0,0,0,.4);
+    transition: all .3s linear;
+  }
+   .a1{
+    background: #4267B2;
+  }
+  .a2{
+    background: #1DA1F2;
+  }
+   .a3{
+    background: #E1306C;
+  }
+   .a4{
+    background: #2867B2;
+  }
+  .a5{
+    background: #333;
+  }
+   .a6{
+    background: #ff0000;
+  }
+   #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+    position:absolute;
+    top: 17px;
+    left: 20px;
+    font-size: 27px;
+  }
+  
+  
+  
+  .a:hover {
+    z-index:1;
+    width:2vw;
+  }
+  
+.contactus{
+   
+    width:90%;
+    margin: auto;
+    padding-top: 10vw;
+    height:80vh;
+    display:flex;
+    background:rgb(30,30,40);
+   
+    flex-direction: row;
+   
+}
+.outerdiv{
+   
+    width:100%;
+    height:100vh;
+
+}
+.contactimage{
+    width:55vw;
+    height:55vh;
+}
+form { max-width:420px; margin:50px auto;padding: 2vh 2vh 2vh;  }
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 1vh;
+    background-color: transparent;
+    border:2px solid #CC6666;
+    transition: all 0.3s;
+    padding: 1.5vh;
+    margin-bottom: 1vh;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #CC4949; }
+  
+  textarea {
+    height: 15vh;
+    line-height: 5vh;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:2vh;
+    padding-top:1.2vh;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:1vh;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#CC4949; }
+  @media (max-width:920px)
+  {
+      .contactus{
+          flex-direction: column;
+
+      }
+      .contactimage{
+        width:100%;
+        height:50vh;
+       
+    }
+    .imgs{
+        padding-top: 18vw;
+       
+        
+    }
+    .outerdiv{
+        
+        height:110vh;
+        overflow: hidden;
+        
+    }
+    .navs{
+        top:20%;
+    }
+    #i1,#i2,#i3,#i4,#i5,#i6,#i7{
+        position:absolute;
+        top: 6vw;
+        left: 1.5vh;
+        font-size: 2.5vh;
+      }
+      .a{
+          padding-left: 6vh;
+      }
+      .li{
+          height: 8vh;
+      }
+      textarea {
+        height: 15vh;
+        line-height: 5vh;
+        resize:vertical;
+      }
+  }
+  @media (max-width:380px)
+  {
+      .outerdiv{
+        height:125vh;
+        overflow: hidden;
+      }
+  }

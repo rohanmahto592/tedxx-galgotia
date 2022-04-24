@@ -1,0 +1,73 @@
+
+.float{
+    width:100%;
+   
+    padding:4vw;
+    object-fit: contain;
+    background-color: black;
+}
+.innertext{
+    padding-top:9vw;
+}
+
+.aboutss{
+    display: block;
+}
+@media (max-width: 920px) {
+    .img{
+        width: 40vh !important;;
+    }
+    
+    }
+    .aboutss{
+        display: none;
+    }
+.texts{
+    width:90%;
+    margin:3vw;
+    
+}
+.hero{
+    width:100%;
+    /* height: 100vh; */
+    /* position:relative; */
+    /* top:0;
+    left:0; */
+    overflow: hidden;
+}
+.college{
+    padding: 4vw;
+    width:95%;
+    opacity: 0.5;
+    /* animation: zoom-in 6s linear infinite; */
+    /* position:absolute; */
+    /* left:50%;
+    top:50%; */
+    /* transform: translate(-50%,-50%); */
+
+}
+@keyframes zoom-in {
+    100%{
+        width:100%;
+    }
+    
+}
+.contentss{
+    position: relative;
+    width:60%;
+    top: -35vw;
+    left:6vw;
+    /* transform: translateY(-35vw);
+    animation: textup 4s linear infinite;  */
+}
+/* @keyframes textup {
+    10%{
+        transform: translateY(0vw);
+
+    }
+    100%{
+        transform: translateY(0vw);
+    }
+
+    
+} */

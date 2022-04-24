@@ -1,0 +1,55 @@
+.company_logos{
+    width:26vw;
+    height:15vw;
+    border-right:0.5vw solid rgba(0, 0, 0, 0.06);
+}
+.gridd{
+    justify-content:space-between;
+    display:flex;
+    flex-direction:row;
+
+}
+.sponserdiv{
+    width:100%;
+    height: 20vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.innersponserdiv{
+    font-size: 6vh;
+}
+.inner1sponserdiv{
+    font-size: 3vh;
+}
+@media  (max-width:1000px)
+{
+    .gridd{
+        flex-direction:column;
+    }
+    .company_logos{
+        width:100vw;
+        height:40vw;
+        border-right:0.5vw solid rgba(0, 0, 0, 0.06);
+        
+    }
+    .sponserdiv{
+        width:100%;
+        height: 20vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        
+    
+    }
+    .innersponserdiv{
+        font-size: 3.5vh;
+    }
+    .inner1sponserdiv{
+        font-size: 1.8vh;
+    }
+}

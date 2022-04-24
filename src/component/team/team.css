@@ -1,0 +1,127 @@
+*{
+   font-family: 'helvetica';
+}
+.container-team
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   
+}
+.members{
+   width:100%;
+   border:1px solid whitesmoke;
+   
+}
+.team{
+    flex-direction: column;
+    width:100%;
+    height:220vh;
+    padding-top: 15vh;
+}
+.textsss{
+    /* display:flex;
+    justify-content: center; */
+    margin-top: -15vh;
+    /* margin-left: 1.5vh; */
+    
+   
+}
+.span1{
+    font-size:8vw;
+}
+.span2{
+    font-size:2.5vh;
+    padding:2vh;
+}
+@media (min-width:800px) {
+    .team{
+        flex-direction: row;
+        height:100vh;
+        padding-top:0px ;
+    }
+    .textsss{
+    
+        padding-top:40vh;
+     }
+     .span1{
+        font-size:8vh;
+    }
+    .span2{
+        font-size:2.5vh;
+    }
+   
+    
+}
+.container-team .card-team
+{
+   width: 400px;
+   height: 450px;
+   padding: 60px 30px;
+   margin: 15px;
+   margin-top: -10vh;
+   
+   background: rgba(0,0,0,0.8);
+   /* box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff; */
+               box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.5);
+   border-radius: 20px;
+}
+.container-team .card-team .content-team
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container-team .card-team .content-team .imgBx-team
+{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   margin-bottom: 20px;
+   overflow: hidden;
+}
+.container-team .card-team .content-team .imgBx-team img
+{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.container-team .card-team .content-team .contentBx-team h4
+{
+   color: white;
+   font-size: 1.7rem;
+   font-weight: bold;
+   text-align: center;
+   letter-spacing: 1px;
+}
+.container-team .card-team .content-team .contentBx-team h5
+{
+   color:white;;
+   font-size: 1.2rem;
+   font-weight: bold;
+   text-align: center;
+}
+.container-team .card-team .content-team .sci
+{
+   margin-top: 20px;
+}
+.container-team .card-team .content-team .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   font-size: 30px;
+   margin: 10px;
+   transition: color 0.4s;
+   color:rgba(255, 0, 55, 0.664);
+}
+.container-team .card-team .content-team .sci a:hover
+{
+   color: #0196e3;
+}
