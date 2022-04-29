@@ -1,7 +1,7 @@
 import React,{useEffect, useState,useRef} from 'react'
 import background from '../images/tedtalk.jpeg'
 import './home.css'
-import { Link } from 'react-router-dom'
+
 import Aos from 'aos'
 import TimerOutlinedIcon from '@mui/icons-material/TimerOutlined';
 import 'aos/dist/aos.css'
