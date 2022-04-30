@@ -1,5 +1,5 @@
 *{
-   font-family: 'helvetica';
+   font-family: helvetica;
 }
 .container-team
 {
@@ -103,7 +103,7 @@
 }
 .container-team .card-team .content-team .contentBx-team h5
 {
-   color:white;;
+   color:white;
    font-size: 1.2rem;
    font-weight: bold;
    text-align: center;
@@ -115,7 +115,7 @@
 .container-team .card-team .content-team .sci a
 {
    text-decoration: none;
-   color: #6c758f;
+   
    font-size: 30px;
    margin: 10px;
    transition: color 0.4s;
