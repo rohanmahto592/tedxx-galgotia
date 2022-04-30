@@ -1,5 +1,4 @@
 import React from 'react'
-
 import {Grid} from '@material-ui/core'
 import e from '../images/deciwood.jpeg'
 import f from "../images/background.png"
