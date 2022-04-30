@@ -9,7 +9,7 @@ import Footer from '../footer/Footer'
 import { Grid } from '@material-ui/core'
 
 const datas=[{
-    name:'Curator',
+    name:'Curators',
     student:['Ayushi Agarwal']
 },
 {
