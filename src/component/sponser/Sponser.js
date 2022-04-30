@@ -1,5 +1,5 @@
 import React from 'react'
-import line from '../images/Line1.png'
+
 import {Grid} from '@material-ui/core'
 import e from '../images/deciwood.jpeg'
 import f from "../images/background.png"
